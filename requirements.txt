@@ -1,0 +1,8 @@
+strealit==1.24.0
+boto3
+pandas
+anthropic
+pdf2image
+poppler-utils
+pydantic==1.10.8
+PyMuPDF==1.24.9

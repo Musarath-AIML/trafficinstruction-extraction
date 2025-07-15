@@ -1,0 +1,142 @@
+<!-- Here are the entities for traffic instructions: -->
+<entities>
+    <!-- This the dictionary you will use to look up information about entities.  It tells you general information of the customer and request details -->
+    <entities_dictionary>
+        <!-- General Information of the like date, instructions, Origin, station, Salespoerson, advertiser, phone number, estimate number, contanct numbers, brand.-->
+        <GeneralInformation>
+            <entry>
+                <name>Date</name>
+                <description></description>
+                <rules_for_use>
+                    1. If unable to determine the Date, return empty string.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>Is this NEW or REVISED instructions?</name>
+                <description>Whether the request is new or revised</description>
+                <allowed_values>New or REVISED</allowed_values>
+                <rules_for_use>
+                    1. If unable to determine the NEW or REVISED instructions, return empty string.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>Origin of Spot</name>
+                <description></description>
+                <rules_for_use>
+                    1. If unable to determine the Origin of Spot, return empty string.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>Station(s)</name>
+                <description>extrall all station names mentioned</description>
+                <rules_for_use>
+                    1. Return the station names as list
+                    2. If unable to determine the Station, return empty list.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>Salesperson</name>
+                <description>sales person name in the rfp</description>
+                <rules_for_use>
+                    1. If unable to determine the Salesperson name, return empty string.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>Phone Number</name>
+                <description>Phone number </description>
+                <rules_for_use>
+                    1. Phone Number is typically numeric codes
+                    2. If unable to determine the Phone Number, return empty string.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>Advertiser</name>
+                <description>Advertiser name</description>
+                <rules_for_use>
+                    1. Advertiser should be as appears in OSI/WO
+                    2. If unable to determine the Advertiser, return empty string.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>ESTIMATE NUMBER</name>
+                <description>Estimate Number</description>
+                <rules_for_use>
+                    1. If unable to determine the ESTIMATE NUMBER, return empty string.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>CONTRACT NUMBER(s)</name>
+                <description>Contact Numbers</description>
+                <rules_for_use>
+                    1. Return list of contact numbers if present
+                    2. If unable to determine the CONTACT NUMBER, return empty list.
+                </rules_for_use>
+            </entry>
+            <entry>
+                <name>BRAND</name>
+                <description>Brand Name</description>
+                <rules_for_use>
+                    1. If unable to determine the BRAND, return empty string.
+                </rules_for_use>
+            </entry>
+
+        </GeneralInformation>
+        <!-- RFP Information is each request  line item details like start data, end date, length, ISCI, spot title, percentage(%).-->
+        </RFPInformation>
+            <line_item_1>
+                <entry>
+                    <name>START DATE</name>
+                    <description>start date of a single request</description>
+                    <rules_for_use>
+                        1. If unable to determine the START DATE, return empty string.
+                    </rules_for_use>
+                </entry>
+                <entry>
+                    <name>END DATE</name>
+                    <description>End date of a single request</description>
+                    <rules_for_use>
+                        1. If unable to determine the END  DATE, return empty string.
+                    </rules_for_use>
+                </entry>
+                <entry>
+                    <name>LENGTH</name>
+                    <description>length of the request</description>
+                    <rules_for_use>
+                        1. If unable to determine the LENGTH, return empty string.
+                    </rules_for_use>
+                </entry>
+                <entry>
+                    <name>ISCI</name>
+                    <description>get the ISCI code of each line item</description>
+                    <rules_for_use>
+                        1. If unable to determine the ISCI, return empty string.
+                    </rules_for_use>
+                </entry>
+                <entry>
+                    <name>SPOT TITLE</name>
+                    <description>the spot titile of each line item</description>
+                    <rules_for_use>
+                        1. If unable to determine the SPOT TITLE, return empty string.
+                    </rules_for_use>
+                </entry>
+                <entry>
+                    <name>PERCENTAGE(%)</name>
+                    <description>the percentage of each line item</description>
+                    <rules_for_use>
+                        1. If unable to determine the PERCENT(%), return empty string.
+                    </rules_for_use>
+                </entry>
+            </line_item_1>
+            <line_item_2>
+                .
+                .
+                .
+                .
+            </line_item_2>
+            .
+            .
+            .
+            .
+            </RFPInformation>
+    </entities_dictionary>
+</entities>
