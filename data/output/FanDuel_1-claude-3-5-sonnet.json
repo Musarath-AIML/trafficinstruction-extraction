@@ -1,0 +1,160 @@
+{
+    "classification": "Traffic Instructions",
+    "entities": {
+        "GeneralInformation": {
+            "Date": {
+                "value": "January 22, 2025",
+                "confidence": 100
+            },
+            "Is this NEW or REVISED instructions?": {
+                "value": "",
+                "confidence": 0
+            },
+            "Origin of Spot": {
+                "value": "XR (formerly Extreme Reach)",
+                "confidence": 95
+            },
+            "Station(s)": {
+                "value": [
+                    "EBFF",
+                    "EBAL",
+                    "WBAL",
+                    "WBFF",
+                    "WMAR",
+                    "WNUV"
+                ],
+                "confidence": 100
+            },
+            "Salesperson": {
+                "value": "",
+                "confidence": 0
+            },
+            "Phone Number": {
+                "value": "",
+                "confidence": 0
+            },
+            "Advertiser": {
+                "value": "FanDuel (FDUL)",
+                "confidence": 100
+            },
+            "ESTIMATE NUMBER": {
+                "value": "82700",
+                "confidence": 100
+            },
+            "CONTRACT NUMBER(s)": {
+                "value": [],
+                "confidence": 0
+            },
+            "BRAND": {
+                "value": "FDSB",
+                "confidence": 90
+            }
+        },
+        "RFPInformation": [
+            {
+                "START DATE": {
+                    "value": "1/27/2025",
+                    "confidence": 100
+                },
+                "END DATE": {
+                    "value": "2/2/2025",
+                    "confidence": 100
+                },
+                "LENGTH": {
+                    "value": ":30",
+                    "confidence": 100
+                },
+                "ISCI": {
+                    "value": "DSBK1977000H",
+                    "confidence": 100
+                },
+                "SPOT TITLE": {
+                    "value": "SBK_NFL_ALL_B5G200BW_2025-KOD3-The-Dream_30_16x9",
+                    "confidence": 100
+                },
+                "PERCENTAGE(%)": {
+                    "value": "25%",
+                    "confidence": 100
+                }
+            },
+            {
+                "START DATE": {
+                    "value": "1/27/2025",
+                    "confidence": 100
+                },
+                "END DATE": {
+                    "value": "2/2/2025",
+                    "confidence": 100
+                },
+                "LENGTH": {
+                    "value": ":30",
+                    "confidence": 100
+                },
+                "ISCI": {
+                    "value": "DSBK1979000H",
+                    "confidence": 100
+                },
+                "SPOT TITLE": {
+                    "value": "SBK_NFL_ALL_B5G200BW_2025-KOD3-The-Destiny_30_16x9",
+                    "confidence": 100
+                },
+                "PERCENTAGE(%)": {
+                    "value": "75%",
+                    "confidence": 100
+                }
+            },
+            {
+                "START DATE": {
+                    "value": "1/27/2025",
+                    "confidence": 100
+                },
+                "END DATE": {
+                    "value": "2/2/2025",
+                    "confidence": 100
+                },
+                "LENGTH": {
+                    "value": ":15",
+                    "confidence": 100
+                },
+                "ISCI": {
+                    "value": "DSBK1978000H",
+                    "confidence": 100
+                },
+                "SPOT TITLE": {
+                    "value": "SBK_NFL_ALL_B5G200BW_2025-KOD3-The-Dream_15_16x9",
+                    "confidence": 100
+                },
+                "PERCENTAGE(%)": {
+                    "value": "25%",
+                    "confidence": 100
+                }
+            },
+            {
+                "START DATE": {
+                    "value": "1/27/2025",
+                    "confidence": 100
+                },
+                "END DATE": {
+                    "value": "2/2/2025",
+                    "confidence": 100
+                },
+                "LENGTH": {
+                    "value": ":15",
+                    "confidence": 100
+                },
+                "ISCI": {
+                    "value": "DSBK1980000H",
+                    "confidence": 100
+                },
+                "SPOT TITLE": {
+                    "value": "SBK_NFL_ALL_B5G200BW_2025-KOD3-The-Destiny_15_16x9",
+                    "confidence": 100
+                },
+                "PERCENTAGE(%)": {
+                    "value": "75%",
+                    "confidence": 100
+                }
+            }
+        ]
+    }
+}

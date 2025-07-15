@@ -1,0 +1,79 @@
+{
+    "classification": "Traffic Instructions",
+    "entities": {
+        "GeneralInformation": {
+            "Date": {
+                "value": "10/13/2023",
+                "confidence": 95
+            },
+            "Is this NEW or REVISED instructions?": {
+                "value": "NEW",
+                "confidence": 90
+            },
+            "Origin of Spot": {
+                "value": "AGENCY",
+                "confidence": 95
+            },
+            "Station(s)": {
+                "value": [
+                    "WKTU-FM"
+                ],
+                "confidence": 95
+            },
+            "Salesperson": {
+                "value": "JESSICA ETTINGER",
+                "confidence": 95
+            },
+            "Phone Number": {
+                "value": "212-314-9230",
+                "confidence": 95
+            },
+            "Advertiser": {
+                "value": "GEICO",
+                "confidence": 95
+            },
+            "ESTIMATE NUMBER": {
+                "value": "1234567",
+                "confidence": 95
+            },
+            "CONTRACT NUMBER(s)": {
+                "value": [
+                    "7654321"
+                ],
+                "confidence": 95
+            },
+            "BRAND": {
+                "value": "GEICO",
+                "confidence": 95
+            }
+        },
+        "RFPInformation": {
+            "line_item_1": {
+                "START DATE": {
+                    "value": "10/16/23",
+                    "confidence": 95
+                },
+                "END DATE": {
+                    "value": "10/22/23",
+                    "confidence": 95
+                },
+                "LENGTH": {
+                    "value": ":30",
+                    "confidence": 95
+                },
+                "ISCI": {
+                    "value": "GEIA3023000H",
+                    "confidence": 95
+                },
+                "SPOT TITLE": {
+                    "value": "GEICO BUNDLING HOME AND AUTO",
+                    "confidence": 95
+                },
+                "PERCENTAGE(%)": {
+                    "value": "100",
+                    "confidence": 95
+                }
+            }
+        }
+    }
+}

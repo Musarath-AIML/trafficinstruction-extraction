@@ -1,0 +1,105 @@
+{
+    "classification": "Traffic Instructions",
+    "entities": {
+        "GeneralInformation": {
+            "Date": {
+                "value": "Wed, Mar 12, 2025",
+                "confidence": 100
+            },
+            "Is this NEW or REVISED instructions?": {
+                "value": "ORIGINAL",
+                "confidence": 95
+            },
+            "Origin of Spot": {
+                "value": "",
+                "confidence": 0
+            },
+            "Station(s)": {
+                "value": [
+                    "WNUV"
+                ],
+                "confidence": 100
+            },
+            "Salesperson": {
+                "value": "Melissa Reiman",
+                "confidence": 90
+            },
+            "Phone Number": {
+                "value": "+1 (845) 732-8721",
+                "confidence": 100
+            },
+            "Advertiser": {
+                "value": "AstraZeneca",
+                "confidence": 100
+            },
+            "ESTIMATE NUMBER": {
+                "value": "0130",
+                "confidence": 100
+            },
+            "CONTRACT NUMBER(s)": {
+                "value": [
+                    "6693"
+                ],
+                "confidence": 95
+            },
+            "BRAND": {
+                "value": "ULTO",
+                "confidence": 100
+            }
+        },
+        "RFPInformation": {
+            "line_item_1": {
+                "START DATE": {
+                    "value": "Mar 17",
+                    "confidence": 100
+                },
+                "END DATE": {
+                    "value": "Mar 23",
+                    "confidence": 100
+                },
+                "LENGTH": {
+                    "value": ":60",
+                    "confidence": 100
+                },
+                "ISCI": {
+                    "value": "ULTO0040000H",
+                    "confidence": 100
+                },
+                "SPOT TITLE": {
+                    "value": "She IS CCN Revision Linear + Addressable",
+                    "confidence": 100
+                },
+                "PERCENTAGE(%)": {
+                    "value": "50",
+                    "confidence": 100
+                }
+            },
+            "line_item_2": {
+                "START DATE": {
+                    "value": "Mar 17",
+                    "confidence": 100
+                },
+                "END DATE": {
+                    "value": "Mar 23",
+                    "confidence": 100
+                },
+                "LENGTH": {
+                    "value": ":60",
+                    "confidence": 100
+                },
+                "ISCI": {
+                    "value": "ULTO0042000H",
+                    "confidence": 100
+                },
+                "SPOT TITLE": {
+                    "value": "He IS CCN Revision Linear + Addressable",
+                    "confidence": 100
+                },
+                "PERCENTAGE(%)": {
+                    "value": "50",
+                    "confidence": 100
+                }
+            }
+        }
+    }
+}
